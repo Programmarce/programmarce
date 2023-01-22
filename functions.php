@@ -9,3 +9,21 @@ function register_my_menu()
     //register_nav_menu('footer-menu-otros', __('Footer Menu conocé'));
 }
 add_action('init', 'register_my_menu');
+
+/*-------------------------------------------------------*/
+
+/*
+ * aqui agregamos las hojas de estilos.
+ * */
+add_action('wp_enqueue_scripts', 'scriptsTemplate');
+
+function scriptsTemplate () {
+    //add style.css -> root
+    wp_enqueue_style( 'style', get_stylesheet_uri() );
+    //add header.css -> /assets/css/header.css
+    wp_enqueue_style( 'header', get_template_directory_uri() . '/assets/css/header.css' );
+    //add jquery ¿?
+    wp_enqueue_script( 'jquery' );
+}
+
+/*-------------------------------------------------------*/
