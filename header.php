@@ -6,7 +6,6 @@ if (!defined('ABSPATH')) {
 
 <!doctype html>
 <html lang="es" style="margin-top: 0px !important;">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,7 +15,7 @@ if (!defined('ABSPATH')) {
 </head>
 <body>
 <!-- Header -->
-<header class="main-header" style="z-index: 1000">
+<header class="main-header">
     <div class="main-header__container">
         <div class="main-header__logodefaul">
             <a href="<?php echo get_home_url(); ?>">
@@ -27,8 +26,11 @@ if (!defined('ABSPATH')) {
             </a>
         </div>
         <?php if (has_custom_logo()) : ?>
-        <?php echo 'if';/*logo customizado: IF existe, lo muestra*/?>
-            <div class="main-header__brand">
+            <?php
+            //@todo evaluar si mostrar el titulo de la pagina o el isologotipo
+            /*logo customizado: IF existe, lo muestra*/
+            ?>
+            <div class="main-header__brand" style="display: none;">
                 <a href="<?php echo get_home_url(); ?>">
                     <?php
                     $custom_logo_id = get_theme_mod('custom_logo');
@@ -40,17 +42,16 @@ if (!defined('ABSPATH')) {
                 </a>
             </div>
         <?php else: ?>
-        <?php echo 'else';/*ELSE, muestra en nombre ingresado en apariencias*/?>
-            <div class="main-header__title">
+        <?php /*ELSE, muestra en nombre ingresado en apariencias*/ ?>
+            <div class="main-header__title" style="display: none;">
                 <?php echo get_bloginfo('name') ?>
             </div>
         <?php endif; ?>
         <div class="main-header__menu">
-            <nav class="nav">
-                <a class="nav-link active" aria-current="page" href="#">Active</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link disabled">Disabled</a>
+            <nav class="nav menu-principal">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Procudtos</a>
+                <a class="nav-link" href="#">Contacto</a>
             </nav>
         </div>
     </div>
