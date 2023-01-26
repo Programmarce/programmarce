@@ -27,3 +27,12 @@ function scriptsTemplate () {
 }
 
 /*-------------------------------------------------------*/
+
+function mostrarRuta ($mostar_ruta, $ruta) {
+    /*
+     * muestra la ruta de un archivo.
+     * */
+    if ($mostar_ruta) {
+        echo '<span style="background-color: #000; color: #7aff00; font-weight: bold; font-size: 0.9rem; width: 100%; margin: 1rem;">'.$ruta.'</span>';
+    }
+}
