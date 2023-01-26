@@ -49,9 +49,9 @@ if (!defined('ABSPATH')) {
         <?php endif; ?>
         <div class="main-header__menu">
             <nav class="nav menu-principal">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Procudtos</a>
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link active" aria-current="page" href="<?php echo get_template_directory_uri(); ?>/home">Home</a>
+                <a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/productos/">Productos</a>
+                <a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/contacto/">Contacto</a>
             </nav>
         </div>
     </div>
