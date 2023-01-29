@@ -104,8 +104,9 @@ get_header();
                                 <li>Formulario de Contacto</li>
                                 <li>Certificado SSL</li>
                                 <li>SEO Premium</li>
-                                <li>Logo</li>
+                                <li>Logo Custom</li>
                                 <li>Redes sociales</li>
+                                <li>Interación con Whatsapp</li>
                                 <li>Galeria de imagenes</li>
                                 <li>Protección Total</li>
                                 <li>Antivirus y contrafuegos</li>
