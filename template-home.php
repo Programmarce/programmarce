@@ -4,7 +4,7 @@
 mostrarRuta(0, __FILE__);
 get_header();
 ?>
-<main>
+<main class="main_template">
     <!--slider ini-->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -49,7 +49,7 @@ get_header();
         <div class="container text-center">
             <div class="row">
                 <div class="col card_conten">
-                    <div class="card">
+                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner-cartel-standar.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <div>
@@ -71,7 +71,7 @@ get_header();
                     </div>
                 </div>
                 <div class="col card_conten">
-                    <div class="card">
+                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner-cartel-proweb.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Pro web</h5>
@@ -93,7 +93,7 @@ get_header();
                     </div>
                 </div>
                 <div class="col card_conten">
-                    <div class="card">
+                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner-cartel-premium.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Premium</h5>

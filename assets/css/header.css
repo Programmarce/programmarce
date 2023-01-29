@@ -1,6 +1,7 @@
 .main-header{
     position: fixed;
     z-index: 1000;
+    top: 0px;
     background: linear-gradient(135deg,#8f0096 0%,#4d00c6 100%);
     width: 100%;
     height: 82px;/*custom: para centrar en vertical el logo*/
@@ -66,7 +67,10 @@ header label img {
 
 /*--- Vista mobile - responsive ------------init------------*/
 @media (max-width: 768px) {
-    .main-header { height: 66px; }
+    .main-header {
+        height: 66px;
+        position: relative;
+    }
 
     .main-header__container {
         padding: 0 0.5rem 0 0.5rem;

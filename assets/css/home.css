@@ -1,5 +1,6 @@
 .carousel-caption { top: 14rem; }
-#carouselExampleCaptions h5 { font-size: 3rem; }
+#carouselExampleCaptions { margin-top: 81px;}
+#carouselExampleCaptions h5 { font-size: 3rem;}
 .carousel-item img { height: 50rem; }
 
 /*card home*/
@@ -16,6 +17,9 @@
 vista mobile template home
 */
 @media (max-width: 768px) {
+    /*contenedor gral - mobile*/
+    .main_template { margin-top: 0px;}
+
     /*slider*/
     .carousel-item img { height: 15rem; }
 
