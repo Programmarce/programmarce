@@ -1,22 +1,22 @@
 .main-header{
     z-index: 1000;
-    background-color: #6632cc;
+    background-color: #3901a5;
     width: 100%;
     height: 82px;/*custom: para centrar en vertical el logo*/
     padding: 0px 1rem 1rem 1rem;
+    box-shadow: inset 0px -8px 9px #d908ff;
 }
 
-.main-header__logodefaul { margin-top: 1rem; }
+.main-header__logodefaul { margin-top: 0.4rem; }
 
 .main-header__container {
     display: flex;
     padding: 0 2rem 0 2rem;
 }
 
-
 /*logo-css*/
 .logo img {
-    height: 50px;
+    height: 70px;
     width: auto;
 }
 
@@ -50,6 +50,30 @@ header label img {
 }
 /*------------------------------ Vista mobile - responsive ------------init------------*/
 @media (max-width: 768px) {
+    .main-header { height: 66px; }
+
+    .main-header__container {
+        padding: 0 0.5rem 0 0.5rem;
+    }
+
+    /*title site ini*/
+    .main-header__title {
+        margin-top: 16px;
+        margin-left: 20px;
+    }
+
+    .main-header__title span {
+        color: white;
+        font-weight: 500;
+    }
+    /*title site fin*/
+
+    /*logo-css mobile*/
+    .logo img {
+        height: 50px;
+        width: auto;
+    }
+
     /*menu-css-movile*/
     .menu-principal ul {
         display: block;
@@ -64,7 +88,7 @@ header label img {
         cursor: pointer;
         position: fixed;
         right: 1rem;
-        top: 30px;
+        top: 20px;
         margin-right: 10px;
         z-index: 1000;
     }

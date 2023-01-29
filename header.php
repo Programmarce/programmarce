@@ -43,8 +43,8 @@ if (!defined('ABSPATH')) {
             </div>
         <?php else: ?>
         <?php /*ELSE, muestra en nombre ingresado en apariencias*/ ?>
-            <div class="main-header__title" style="display: none;">
-                <?php echo get_bloginfo('name') ?>
+            <div class="main-header__title">
+                <span><?php echo get_bloginfo('name') ?></span>
             </div>
         <?php endif; ?>
         <div class="main-header__menu">
