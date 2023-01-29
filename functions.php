@@ -22,6 +22,8 @@ function scriptsTemplate () {
     wp_enqueue_style( 'style', get_stylesheet_uri() );
     //add header.css -> /assets/css/header.css
     wp_enqueue_style( 'header', get_template_directory_uri() . '/assets/css/header.css' );
+    //add header.css -> /assets/css/home.css
+    wp_enqueue_style( 'home', get_template_directory_uri() . '/assets/css/home.css' );
     //add jquery ¿?
     wp_enqueue_script( 'jquery' );
 }
