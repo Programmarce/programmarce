@@ -143,3 +143,7 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 	padding-left: var(--wp--custom--spacing--outer);
 }
 
+.bg-theme {
+	background: linear-gradient(135deg,#8f0096 0%,#4d00c6 100%);
+}
+

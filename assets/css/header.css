@@ -1,6 +1,6 @@
 .main-header{
     z-index: 1000;
-    background-color: #3901a5;
+    background: linear-gradient(135deg,#8f0096 0%,#4d00c6 100%);
     width: 100%;
     height: 82px;/*custom: para centrar en vertical el logo*/
     padding: 0px 1rem 1rem 1rem;
