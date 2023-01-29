@@ -21,7 +21,9 @@ if (!defined('ABSPATH')) {
             <a href="<?php echo get_home_url(); ?>">
                 <!--logo default-->
                 <div class="logo">
-                    <img src="<?php echo get_template_directory_uri().'/assets/img/logo.png'; ?>">
+                    <a href="<?php echo get_template_directory_uri().'/home'; //el logo redirecciona a la home ?>">
+                        <img src="<?php echo get_template_directory_uri().'/assets/img/logo.png'; ?>">
+                    </a>
                 </div>
             </a>
         </div>
@@ -37,7 +39,7 @@ if (!defined('ABSPATH')) {
                     $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
                     ?>
                     <div class="logo">
-                        <img src="<?php echo $logo[0] ?>" alt="<?php echo get_bloginfo('name'); ?>">
+                            <img src="<?php echo $logo[0] ?>" alt="<?php echo get_bloginfo('name'); ?>">
                     </div>
                 </a>
             </div>
