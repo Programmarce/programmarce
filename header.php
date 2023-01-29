@@ -21,7 +21,7 @@ if (!defined('ABSPATH')) {
             <a href="<?php echo get_home_url(); ?>">
                 <!--logo default-->
                 <div class="logo">
-                    <img src="<?php echo get_template_directory_uri().'/assets/img/logo.png'; ?>"/>
+                    <img src="<?php echo get_template_directory_uri().'/assets/img/logo.png'; ?>">
                 </div>
             </a>
         </div>
@@ -48,10 +48,16 @@ if (!defined('ABSPATH')) {
             </div>
         <?php endif; ?>
         <div class="main-header__menu">
-            <nav class="nav menu-principal">
-                <a class="nav-link active" aria-current="page" href="<?php echo get_template_directory_uri(); ?>/home">Home</a>
-                <a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/productos/">Productos</a>
-                <a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/contacto/">Contacto</a>
+            <label class="icon-menu" for="menu-check">
+                <img src="<?php echo get_template_directory_uri().'/assets/img/menu.png'; ?>" style="width: 24px;float: right;"/>
+            </label>
+            <input type="checkbox" id="menu-check">
+            <nav class="nav menu-principal items-menu">
+                <ul>
+                    <li><a class="nav-link active" aria-current="page" href="<?php echo get_template_directory_uri(); ?>/home">Home</a></li>
+                    <li><a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/productos/">Productos</a></li>
+                    <li><a class="nav-link" href="<?php echo get_template_directory_uri(); ?>/contacto/">Contacto</a></li>
+                </ul>
             </nav>
         </div>
     </div>
