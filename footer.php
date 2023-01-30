@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {
 <footer class="main-footer">
     <div class="footer-container">
         <div>
-            <p>&#169 Programmarce 2023 - Diseño Web</p>
+            <p>&#169 Programmarce <?php echo date("Y"); ?> - Diseño Web</p>
         </div>
     </div>
 </footer>
