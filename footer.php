@@ -2,11 +2,12 @@
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
+$site_name = get_bloginfo('name');
 ?>
 <footer class="main-footer">
     <div class="footer-container">
         <div>
-            <p>&#169 Programmarce <?php echo date("Y"); ?> - Diseño Web</p>
+            <p>&#169 <?php echo $site_name." ".date("Y"); ?> - Web Diseing</p>
         </div>
     </div>
 </footer>
