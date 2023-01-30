@@ -7,7 +7,7 @@ $site_name = get_bloginfo('name');
 <footer class="main-footer">
     <div class="footer-container">
         <div>
-            <p>&#169 <?php echo $site_name." ".date("Y"); ?> - Web Diseing</p>
+            <p>&#169 <?php echo $site_name." ".date("Y"); ?> - Web Design</p>
         </div>
     </div>
 </footer>
