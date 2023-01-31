@@ -11,6 +11,7 @@ if (!defined('ABSPATH')) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Creamos tu pagina web ya!">
     <meta property="og:url" content="https://www.programmarce.ar/home">
+    <!--agregar img-->
     <meta property="og:image" content="">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Creamos tu pagina web ya! Diseñamos tu sitio a tu medida.">

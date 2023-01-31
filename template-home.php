@@ -16,7 +16,7 @@ get_header();
             <div class="carousel-item active">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slide/keyboar.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Creamos tu Pagina Web ya!</h5>
+                    <h1>Creamos tu Pagina Web ya!</h1>
                     <p>Ponete en contacto con nosotros. <br> Empeza hoy a ver tu sitio Web.</p>
                 </div>
             </div>
@@ -53,11 +53,13 @@ get_header();
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner-cartel-standar.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <div>
-                                <h5 class="card-title">Standar</h5>
+                                <h5 class="card-title">Standar</h5><ion-icon class="icon-fonsize" name="ribbon-outline"></ion-icon>
+                                <h5 class="card-title">$ 40.000 ARS</h5>
                             </div>
                             <p class="card-text">Obtene una pagina web ya!<br> En pocos pasos y de forma sencilla.</p>
                             <ul>
-                                <li>Dominio propio</li>
+                                <li>Hosting incluido</li>
+                                <li>Dominio incluido</li>
                                 <li>3 Secciones</li>
                                 <li>Certificado SSL</li>
                                 <li>SEO Basic</li>
@@ -65,6 +67,7 @@ get_header();
                                 <li>Redes sociales</li>
                                 <li>Galeria de imagenes</li>
                                 <li>Protección y Respaldo</li>
+                                <li>Feedback cliente - asesor</li>
                             </ul>
                             <a href="#" class="btn btn-primary bg-theme" style="border: none;">Consultar</a>
                         </div>
@@ -74,10 +77,12 @@ get_header();
                     <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner-cartel-proweb.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Pro web</h5>
+                            <h5 class="card-title">Pro web</h5><ion-icon class="icon-fonsize" name="diamond-outline"></ion-icon>
+                            <h5 class="card-title">$ 70.000 ARS</h5>
                             <p class="card-text">Desarrollo, diseño y mantenimento de tu sitio activo.</p>
                             <ul>
-                                <li>Dominio propio</li>
+                                <li>Hosting incluido</li>
+                                <li>Dominio incluido</li>
                                 <li>5 Secciones</li>
                                 <li>Formulario de Contacto</li>
                                 <li>Certificado SSL</li>
@@ -87,6 +92,7 @@ get_header();
                                 <li>Galeria de imagenes</li>
                                 <li>Protección y Respaldo</li>
                                 <li>Asesoramiento continuo</li>
+                                <li>Feedback cliente - asesor</li>
                             </ul>
                             <a href="#" class="btn btn-primary bg-theme" style="border: none;">Consultar</a>
                         </div>
@@ -96,11 +102,14 @@ get_header();
                     <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner-cartel-premium.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Premium</h5>
+                            <h5 class="card-title">Premium </h5> <ion-icon class="icon-fonsize" name="trophy-outline"></ion-icon>
+                            <h5 class="card-title" style="text-decoration-line: line-through; font-weight: 400;">$ 100.000 ARS</h5>
+                            <h5 class="card-title" style="text-shadow: 1px 1px 2px #6a0fbd;">$ 90.000 ARS</h5><span style="color: red; font-weight: bold">Limited time </span><ion-icon class="icon-fonsize" name="hourglass-outline"  style="color: red;"></ion-icon>
                             <p class="card-text">Desempeño dedicado a tu sitio. Implementación de SEO full, Seguridad y Mantenimiento premium</p>
                             <ul>
-                                <li>Dominio propio</li>
-                                <li>5 Secciones</li>
+                                <li>Hosting incluido</li>
+                                <li>Dominio incluido</li>
+                                <li>8 Secciones</li>
                                 <li>Formulario de Contacto</li>
                                 <li>Certificado SSL</li>
                                 <li>SEO Premium</li>
@@ -111,6 +120,8 @@ get_header();
                                 <li>Protección Total</li>
                                 <li>Antivirus y contrafuegos</li>
                                 <li>Asesoramiento full</li>
+                                <li>actualizaciones incluidas</li>
+                                <li>Feedback cliente - asesor</li>
                             </ul>
                             <a href="#" class="btn btn-primary bg-theme" style="border: none;">Consultar</a>
                         </div>
