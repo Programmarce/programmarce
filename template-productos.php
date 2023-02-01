@@ -9,22 +9,6 @@ get_header();
         <div class="card">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banners/banner-coffe.png" class="card-img-top" alt="...">
             <div class="card-body">
-                <!--ini-->
-                <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 70%; margin: 1.5rem auto 1.5rem auto">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/desin.jpeg" class="card-img-top" alt="..." style="max-width: 10rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Matenimiento del sitio</h5>
-                        <p class="card-text">
-                            Nuestros productos se basan en packs de servicios digitales. <br>
-                            Ofrecemos 3 categorias iniciales, las cuales tienen definidas sus caracteristicas. <br>
-                            El matenimiento de tu sitio te brinda una atención adicional ademas de los servicios propuestos.<br>
-                            Es por ello que pactaremos en un feedback como coordinar los beneficios de este <strong>servio de mantenimiento especializado</strong> según el pack que eligas.<br>
-                            Cada pack tiene un abono mensual de base y las especificaciones de lo que contempla el mantenimiento de tu sitio te lo explicara un asesor de manera detallada. <ion-icon class="icon-fonsize" name="footsteps-outline"></ion-icon>
-                        </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <!--fin-->
                 <h5 class="card-title">Conocé nuestros Paquetes:</h5>
                 <div class="accordion" id="accordionPanelsStayOpenExample" style="margin-top: 1.5rem">
                     <div class="accordion-item">
@@ -232,6 +216,22 @@ get_header();
                         </div>
                     </div>
                 </div>
+                <!--ini-->
+                <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 70%; margin: 1.5rem auto 1.5rem auto">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/desin.jpeg" class="card-img-top" alt="..." style="max-width: 10rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Matenimiento del sitio</h5>
+                        <p class="card-text">
+                            Nuestros productos se basan en packs de servicios digitales. <br>
+                            Ofrecemos 3 categorias iniciales, las cuales tienen definidas sus caracteristicas. <br>
+                            El matenimiento de tu sitio te brinda una atención adicional ademas de los servicios propuestos.<br>
+                            Es por ello que pactaremos en un feedback como coordinar los beneficios de este <strong>servio de mantenimiento especializado</strong> según el pack que eligas.<br>
+                            Cada pack tiene un abono mensual de base y las especificaciones de lo que contempla el mantenimiento de tu sitio te lo explicara un asesor de manera detallada. <ion-icon class="icon-fonsize" name="footsteps-outline"></ion-icon>
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <!--fin-->
             </div>
         </div>
     </div>

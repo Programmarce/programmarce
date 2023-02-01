@@ -3,6 +3,54 @@
 
 mostrarRuta(0, __FILE__);
 get_header();
+
+
+$paquetes = array(
+    $basicstatic = dataPacks(
+        false,
+        "banner-cartel-standar.png",
+        "Basic Static",
+        "",
+        "30.000",
+        "",
+        "+ abono",
+        "2.000",
+        "Obtene una pagina web ya!<br>En pocos pasos y de forma sencilla."
+    ),
+    $standar = dataPacks(
+        true,
+        "banner-cartel-standar.png",
+        "Standar",
+        "",
+        "40.000",
+        "",
+        "+ abono",
+        "3.000",
+        "Obtene una pagina web ya!<br>En pocos pasos y de forma sencilla."
+    ),
+    $proweb = dataPacks(
+        true,
+        "banner-cartel-proweb.png",
+        "Pro Web",
+        "",
+        "65.000",
+        "",
+        "+ abono",
+        "3.000",
+        "Desarrollo, diseño y mantenimento de tu sitio activo."
+    ),
+    $premium = dataPacks(
+            true,
+        "banner-cartel-premium.png",
+        "Premium",
+        "",
+        "100.000",
+        "",
+        "+ abono",
+        "3.000",
+        "Desempeño dedicado a tu sitio. Implementación de SEO full, Seguridad y Mantenimiento premium."
+    )
+);
 ?>
 <main class="main_template">
     <!--slider ini-->
@@ -50,7 +98,7 @@ get_header();
             <div class="row">
                 <div class="col card_conten">
                     <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner-cartel-standar.png" class="card-img-top" alt="...">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banners/banner-cartel-standar.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <div>
                                 <h5 class="card-title">Standar</h5><ion-icon class="icon-fonsize" name="ribbon-outline"></ion-icon>
@@ -75,7 +123,7 @@ get_header();
                 </div>
                 <div class="col card_conten">
                     <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner-cartel-proweb.png" class="card-img-top" alt="...">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banners/banner-cartel-proweb.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Pro web</h5><ion-icon class="icon-fonsize" name="diamond-outline"></ion-icon>
                             <h5 class="card-title">$ 70.000 ARS</h5>
@@ -100,7 +148,7 @@ get_header();
                 </div>
                 <div class="col card_conten">
                     <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banner-cartel-premium.png" class="card-img-top" alt="...">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banners/banner-cartel-premium.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Premium </h5> <ion-icon class="icon-fonsize" name="trophy-outline"></ion-icon>
                             <h5 class="card-title" style="text-decoration-line: line-through; font-weight: 400;">$ 100.000 ARS</h5>
