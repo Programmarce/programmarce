@@ -43,7 +43,7 @@ function mostrarRuta ($mostar_ruta, $ruta) {
     }
 }
 
-function dataPacks($mostrar_pack = false, $name_img_banner, $name_Pack, $promo_Decuento = null, $prise, $texLimited, $abonoText, $abonoPrice, $descriptionPack) {
+function dataPacks($mostrar_pack = false, $name_img_banner, $name_Pack, $icon, $precio_tach = null, $precio, $texLimited, $abonoPrice, $descriptionPack, $skills) {
     // leyenda de lo que hace esta funcion.
     /*
      * $display : Mostrar u Ocultar pack
@@ -60,12 +60,13 @@ function dataPacks($mostrar_pack = false, $name_img_banner, $name_Pack, $promo_D
         "mostrar" => $mostrar_pack,
         "name img" => $name_img_banner,
         "name pack" => $name_Pack,
-        "promo" => $promo_Decuento,
-        "precio" => $prise,
+        "icon" => $icon,
+        "precio tachado" => $precio_tach,
+        "precio" => $precio,
         "texo limite" => $texLimited,
-        "texto abono" => $abonoText,
         "abono" => $abonoPrice,
-        "description" => $descriptionPack
+        "description" => $descriptionPack,
+        "skills" => $skills
     );
     return $data_pack;
 }
