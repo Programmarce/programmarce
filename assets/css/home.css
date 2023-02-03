@@ -19,12 +19,13 @@ vista mobile template home
 @media (max-width: 768px) {
     /*contenedor gral - mobile*/
     .main_template { margin-top: 0px;}
+    #carouselExampleCaptions { margin-top: 0px;}
 
     /*slider*/
     .carousel-item img { height: 15rem; }
 
     /*texto de slider*/
     .carousel-caption { top: 0rem; display: block !important; }/*altura del texto*/
-    #carouselExampleCaptions h5 { font-size: 1rem; }
+    #carouselExampleCaptions h5, h1 { font-size: 1rem; }
     #carouselExampleCaptions p { font-size: 0.7rem; }
 }

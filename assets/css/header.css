@@ -79,7 +79,7 @@ header label img {
     /*title-mobile site ini*/
     .main-header__title {
         margin-top: 16px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .main-header__title span {
@@ -87,6 +87,11 @@ header label img {
         font-weight: 500;
     }
     /*title-mobile site fin*/
+
+    /*menu bugger mobile*/
+    .main-header__menu {
+        width: 10%;
+    }
 
     /*logo-css mobile*/
     .logo img {
@@ -125,7 +130,7 @@ header label img {
         right: 0px;
         width: 100%;
         height: 180px;
-        background: rgb(51 51 51 / 45%);
+        background: rgb(51 51 51 / 64%);
         transition: all 0.5s;
         transform: translateX(100%);
         z-index: 1000;
@@ -135,6 +140,7 @@ header label img {
     .items-menu a { /*links*/
         display: block;
         color: #fff;
+        font-weight: bold;
         height: 50px;
         text-decoration: none;
         padding: 15px;
