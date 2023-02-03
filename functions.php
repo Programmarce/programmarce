@@ -43,18 +43,20 @@ function mostrarRuta ($mostar_ruta, $ruta) {
     }
 }
 
-function dataPacks($mostrar_pack = false, $name_img_banner, $name_Pack, $icon, $precio_tach = null, $precio, $texLimited, $abonoPrice, $descriptionPack, $skills) {
+function dataPacks($mostrar_pack = false, $name_img_banner, $name_Pack, $icon, $precio_tach = null, $precio, $texLimited, $abonoPrice, $descriptionPack, $skills, $mostrar_boton) {
     // leyenda de lo que hace esta funcion.
     /*
-     * $display : Mostrar u Ocultar pack
-     * $img : Nombre de la imagen incluido la extensión (agregar banner en /assets/img/banners).
-     * $namePack : Nombre del Pack.
-     * $promoDecuento : Valor simbolico tachado. $ xxx ARS. Default -> null.
+     * $mostrar_pack : Mostrar u Ocultar pack.
+     * $name_img_banner : Nombre de la imagen incluido la extensión (agregar banner en /assets/img/banners).
+     * $name_Pack : Nombre del Pack.
+     * $icon : icono pequeño (simbolo del pack) - Default icon.
+     * $precio_tach : Valor simbolico tachado. $ xxx ARS. Default -> null.
      * $prise : Precio Real del pack.
-     * $texLimited
-     * $abonoText
-     * $abonoPrice
-     * $descriptionPack
+     * $texLimited : Texto que describe el limite de la publicacion del pack.
+     * $abonoPrice: Precio del abono mensual.
+     * $descriptionPack : Descripción del Pack.
+     * $skills : lista de items de servicios.
+     * $mostrar_boton : mostramos el boton de consulta o no (true or false).
      * */
     $data_pack = array(
         "mostrar" => $mostrar_pack,
@@ -66,7 +68,8 @@ function dataPacks($mostrar_pack = false, $name_img_banner, $name_Pack, $icon, $
         "texo limite" => $texLimited,
         "abono" => $abonoPrice,
         "description" => $descriptionPack,
-        "skills" => $skills
+        "skills" => $skills,
+        "boton" => $mostrar_boton
     );
     return $data_pack;
 }
