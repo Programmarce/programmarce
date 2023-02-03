@@ -21,7 +21,7 @@ $paquetes = array(
     $standar = dataPacks(
         true,
         "banner-cartel-standar.png",
-        "Standar",
+        "Standard",
         "",
         "",
         "40.000",
