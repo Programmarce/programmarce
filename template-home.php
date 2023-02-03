@@ -6,6 +6,19 @@ get_header();
 
 /*** DATA PACKAGE ini ***/
 $paquetes = array(
+    $promo = dataPacks(
+        false,
+        "banner-cartel-standar.png",
+        "Promo Limited",
+        "",
+        "",
+        "25.000",
+        "",
+        "1.500",
+        "Nuevo pack, Proximamente.",
+        array(),
+        false
+    ),
     $basicstatic = dataPacks(
         true,
         "banner-cartel-standar.png",
@@ -16,7 +29,8 @@ $paquetes = array(
         "",
         "1.500",
         "Nuevo pack, Proximamente.",
-        array()
+        array(),
+        true
     ),
     $standar = dataPacks(
         true,
@@ -39,7 +53,8 @@ $paquetes = array(
             "Galeria de imagenes",
             "Protección y Respaldo",
             "Feedback cliente - asesor"
-        )
+        ),
+        true
     ),
     $proweb = dataPacks(
         true,
@@ -64,7 +79,8 @@ $paquetes = array(
             "Protección y Respaldo",
             "Asesoramiento continuo",
             "Feedback cliente - asesor"
-        )
+        ),
+        true
     ),
     $premium = dataPacks(
         true,
@@ -92,10 +108,12 @@ $paquetes = array(
             "Asesoramiento full",
             "actualizaciones incluidas",
             "Feedback cliente - asesor"
-        )
+        ),
+        true
     )
 );
 /*** DATA PACKAGE fin ***/
+
 //elegir icons: https://ionic.io/ionicons
 ?>
 <style>/*.main-header {display: none;*//*@todo debugger*/}</style>
@@ -181,7 +199,9 @@ $paquetes = array(
                                                 </li>
                                             <?php endif; ?>
                                         </ul>
-                                        <a href="#" class="btn btn-primary bg-theme" style="border: none; margin-top: 1.5rem;">Consultar</a>
+                                        <?php if ($pack["boton"]) : ?>
+                                            <a href="#" class="btn btn-primary bg-theme" style="border: none; margin-top: 1.5rem;<?php echo $pack["boton"]; ?>">Consultar</a>
+                                        <?php endif; ?>
                                     </div>
                                 </div>
                             </div>
