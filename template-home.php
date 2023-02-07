@@ -17,10 +17,10 @@ $paquetes = array(
         "1.500",
         "Nuevo pack, Proximamente.",
         array(),
-        false
+        "?pack=promo#btn-packs"
     ),
     $basicstatic = dataPacks(
-        true,
+        false,
         "banner-cartel-standar.png",
         "Basic Static",
         "",
@@ -30,7 +30,7 @@ $paquetes = array(
         "1.500",
         "Nuevo pack, Proximamente.",
         array(),
-        true
+        ""
     ),
     $standar = dataPacks(
         true,
@@ -54,7 +54,7 @@ $paquetes = array(
             "Protección y Respaldo",
             "Feedback cliente - asesor"
         ),
-        true
+        "?pack=standard#btn-packs"
     ),
     $proweb = dataPacks(
         true,
@@ -70,8 +70,8 @@ $paquetes = array(
             "Hosting incluido",
             "Dominio incluido",
             "5 Secciones",
-            "Formulario de Contacto",
             "Certificado SSL",
+            "Formulario de Contacto",
             "SEO Complete",
             "Logo",
             "Redes sociales",
@@ -80,7 +80,7 @@ $paquetes = array(
             "Asesoramiento continuo",
             "Feedback cliente - asesor"
         ),
-        true
+        "?pack=proweb#btn-packs"
     ),
     $premium = dataPacks(
         true,
@@ -96,8 +96,8 @@ $paquetes = array(
             "Hosting incluido",
             "Dominio incluido",
             "8 Secciones",
-            "Formulario de Contacto",
             "Certificado SSL",
+            "Formulario de Contacto",
             "SEO Premium",
             "Logo Custom",
             "Redes sociales",
@@ -109,14 +109,15 @@ $paquetes = array(
             "actualizaciones incluidas",
             "Feedback cliente - asesor"
         ),
-        true
+        "?pack=premium#btn-packs"
     )
 );
 /*** DATA PACKAGE fin ***/
 
 //elegir icons: https://ionic.io/ionicons
 ?>
-<style>/*.main-header {display: none;*//*@todo debugger*/}</style>
+
+<style>/*.main-header {display: none;@todo debugger}*/</style>
 <main class="main_template">
     <!--slider ini-->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -200,7 +201,7 @@ $paquetes = array(
                                             <?php endif; ?>
                                         </ul>
                                         <?php if ($pack["boton"]) : ?>
-                                            <a href="#" class="btn btn-primary bg-theme" style="border: none; margin-top: 1.5rem;<?php echo $pack["boton"]; ?>">Consultar</a>
+                                            <a href="<?php echo get_template_directory_uri(); ?>/productos/<?php echo $pack['boton'];?>" class="btn btn-primary bg-theme" style="border: none; margin-top: 1.5rem;<?php echo $pack["boton"]; ?>">Consultar</a>
                                         <?php endif; ?>
                                     </div>
                                 </div>

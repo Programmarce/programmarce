@@ -3,21 +3,52 @@
 
 mostrarRuta(0, __FILE__);
 get_header();
+
+$bool_standard = false;
+$show_standard = "";
+$bool_proweb = false;
+$show_proweb = "";
+$bool_premium = false;
+$show_premium = "";
+$bool_promo = false;
+$show_promo = "";
+$style_show = "";
+
+
+
+if (!empty($_GET["pack"])) {
+    $namePack = $_GET["pack"];
+    if ($namePack=="standard"){
+        $bool_standard = true;
+        $show_standard = "show";
+    }elseif ($namePack=="proweb"){
+        $bool_proweb = true;
+        $show_proweb = "show";
+    }elseif ($namePack=="premium"){
+        $bool_premium = true;
+        $show_premium = "show";
+    }elseif ($namePack=="promo"){
+        $bool_promo = true;
+        $show_promo = "show";
+    }
+
+}
+
 ?>
 <main class="main_template">
     <div style="margin: -1px 1rem 1rem 1rem;">
         <div class="card">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banners/banner-coffe.png" class="card-img-top" alt="...">
-            <div class="card-body">
+            <div id="btn-packs" class="card-body">
                 <h5 class="card-title">Conocé nuestros Paquetes:</h5>
                 <div class="accordion" id="accordionPanelsStayOpenExample" style="margin-top: 1.5rem">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                            <button style="<?php echo ($bool_standard ? 'background: linear-gradient(135deg, #8f0096 0%, #4d00c6 100%); color: white;' : ''); ?>" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="<?php echo $bool_standard; ?>" aria-controls="panelsStayOpen-collapseOne">
                                 Pack Standar
                             </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse <?php echo $show_standard; ?>" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
                                 <div>
                                     <p><ion-icon class="icon-fonsize" name="rocket-outline"></ion-icon> <strong>Tu sitio web ya !</strong> Este pack tiene como objetivo darte de manera rápida y sencilla un sitio web a corto plazo.</p>
@@ -74,11 +105,11 @@ get_header();
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <button style="<?php echo ($bool_proweb ? 'background: linear-gradient(135deg, #8f0096 0%, #4d00c6 100%); color: white;' : ''); ?>" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="<?php echo $bool_proweb; ?>" aria-controls="panelsStayOpen-collapseTwo">
                                 Pack Pro Web
                             </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse <?php echo $show_proweb; ?>" aria-labelledby="panelsStayOpen-headingTwo">
                             <div class="accordion-body">
                                 <div>
                                     <p><ion-icon class="icon-fonsize" name="sparkles-outline"></ion-icon> <strong>Design Skills</strong> En este pack te ofrecemos propuestas de desarrollo, diseños que se adapten a lo que buscas. Matenimiento del sitio de 10hs dedicadas</p>
@@ -145,11 +176,11 @@ get_header();
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <button style="<?php echo ($bool_premium ? 'background: linear-gradient(135deg, #8f0096 0%, #4d00c6 100%); color: white;' : ''); ?>" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="<?php echo $bool_premium; ?>" aria-controls="panelsStayOpen-collapseThree">
                                 Pack Premium
                             </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse <?php echo $show_premium; ?>" aria-labelledby="panelsStayOpen-headingThree">
                             <div class="accordion-body">
                                 <div>
                                     <p><ion-icon class="icon-fonsize" name="trophy-outline"></ion-icon> <strong>Premium Protected</strong> Este pack es el más completo, por lo cual podemos ampliar horizontes, dedicarnos a tu sitio hasta lograr la mejor performance. Matenimiento del sitio de 15hs dedicadas.</p>
