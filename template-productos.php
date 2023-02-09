@@ -50,54 +50,83 @@ if (!empty($_GET["pack"])) {
                         </h2>
                         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse <?php echo $show_standard; ?>" aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
-                                <div>
-                                    <p><ion-icon class="icon-fonsize" name="rocket-outline"></ion-icon> <strong>Tu sitio web ya !</strong> Este pack tiene como objetivo darte de manera rápida y sencilla un sitio web a corto plazo.</p>
+                                <div class="item-pack">
+                                    <p><ion-icon class="icon-fonsize" name="rocket-outline"></ion-icon> <strong>Tu sitio web ya !</strong><br>
+                                        Con este pack vas a tener <strong>tu sitio web de manera rápida y sencilla.</strong><br>
+                                        Solo tenés que decirnos cuales son tus ideas, el nombre para tu página, qué contenido querés mostrar y cuál es la finalidad o que impactó buscas darle a tu proyecto.
+                                        <br>
+                                        Nosotros vamos a guiarte y darte una mano para el diseño y desarrollo. Verás que en pocos pasos tendrás tu web ya!
+                                        <br> Este pack tiene como objetivo darte <strong>de manera rápida y sencilla un sitio web a corto plazo.</strong>
+                                    </p>
                                 </div>
-                                <div>
+                                <div class="item-pack">
                                     <p>
-                                        <ion-icon class="icon-fonsize" name="trail-sign-outline"></ion-icon> Te ofrecemos un dominio (nombre de tu sitio en la web) y te asesoramos como gestionarlo. No te preocupes, cuando nos contactemos, un asesor te explicara como proceder, es fácil. <ion-icon class="icon-fonsize" name="happy-outline"></ion-icon><br>
+                                        <ion-icon class="icon-fonsize" name="trail-sign-outline"></ion-icon> Te ofrecemos un dominio (nombre de tu sitio en la web) y te asesoramos cómo gestionarlo. ¡No te preocupes! Cuando nos contactemos, un asesor te explicará cómo proceder. ¡Es muy sencillo!. <ion-icon class="icon-fonsize" name="happy-outline"></ion-icon><br>
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/nicar.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                     </p>
                                 </div>
-                                <div>
+                                <div class="item-pack">
                                     <p>
-                                        <ion-icon class="icon-fonsize" name="globe-outline"></ion-icon> Nos encargamos de las configuraciones del hosting donde alojaremos tu sitio para que se vea en la web.
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/server.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
+                                        <ion-icon class="icon-fonsize" name="globe-outline"></ion-icon> Nos encargamos de las configuraciones e instalaciones que requiere <strong>hosting donde alojaremos tu sitio</strong> para que se vea en la web. Optimizamos los servicios para que se adapte a tu sitio.
                                     </p>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/server.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                 </div>
-                                <div>
+                                <div class="item-pack">
                                     <p>
-                                        <ion-icon class="icon-fonsize" name="receipt-outline"></ion-icon> Te ofrecemos 3 secciones o paginas para navegar por tu sitio. Si necesitas mas, podemos cotizarlo y darte un mejor precio.
+                                        <ion-icon class="icon-fonsize" name="receipt-outline"></ion-icon> En este Pack te ofrecemos <strong>3 secciones o páginas para navegar por tu sitio.</strong> Si bien en este pack te ofrecemos 3, podemos cotizar las secciones que necesites y todo lo que se te ocurra.
                                     </p>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/web-development.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                 </div>
-                                <div>
+                                <div class="item-pack">
                                     <p>
-                                        <ion-icon class="icon-fonsize" name="color-wand-outline"></ion-icon> Diseñamos tu logo si no tenes uno.
-                                        <br>Nuestros desarrolladores pueden aplicar técnicas de diseños de marketing utilizando herramientas como Illustrator & Photoshop.
+                                        <ion-icon class="icon-fonsize" name="color-wand-outline"></ion-icon> Si todavía no tenes tu logo, contanos tu idea y nosotros lo realizamos... <br>
+                                        Nuestros desarrolladores pueden aplicar técnicas de diseño de marketing y comunicación visual, utilizando herramientas como Illustrator & Photoshop entre otras…
                                     </p>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/diseno-grafico.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ilustrador.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photoshop.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                 </div>
-                                <div>
-                                    <p><ion-icon class="icon-fonsize" name="shield-checkmark-outline"></ion-icon> Certificado SSL incluido. Los certificados SSL de validación de dominio sirven para proteger sitios web personales o incluso portales de empresas y proyectos de comercio electrónico.
+                                <div class="item-pack">
+                                    <p><ion-icon class="icon-fonsize" name="shield-checkmark-outline"></ion-icon>  Certificado SSL incluido. <br>
+                                        Los <strong>certificados SSL</strong> de validación de dominio sirven para proteger  y garantizar la autenticidad de tu sitio web. <br>
+                                        Este es muy importante para proteger tu sitio y para los usuarios que visiten tu página, ya que les brinda seguridad y confianza al ver que no es un sitio de procedencia dudosa, sino que la validación del dominio está garantizada...
                                     </p>
                                 </div>
-                                <div>
-                                    <p><ion-icon class="icon-fonsize" name="bar-chart-outline"></ion-icon> Implementación de SEO. Aplicaremos una serie de técnicas, disciplinas y estrategias de optimización para tu sitio web o blog que mejorarán su posicionamiento en los buscadores.</p>
+                                <div class="item-pack">
+                                    <p><ion-icon class="icon-fonsize" name="bar-chart-outline"></ion-icon> Implementación de <strong>SEO</strong>. Aplicaremos una serie de técnicas, disciplinas y estrategias de optimización para que tu sitio web o blog, mejoren su posicionamiento en los buscadores.</p>
                                 </div>
-                                <div>
-                                    <p><ion-icon class="icon-fonsize" name="logo-stackoverflow"></ion-icon> Imcorporación de Redes sociasles (Facebook - instagram - Whatsaap - twiter - y otros que necesites aplicar).</p>
+                                <div class="item-pack">
+                                    <p>
+                                        <ion-icon class="icon-fonsize" name="logo-stackoverflow"></ion-icon> Incorporación de <strong>Redes sociales</strong>. <br>
+                                        Con un click, tenés enlaces directos a Facebook - Instagram - Whatsapp - twitter y demás. Creamos botones personalizados para tus redes.
+                                    </p>
                                 </div>
-                                <div>
-                                    <p><ion-icon class="icon-fonsize" name="grid-outline"></ion-icon> Galeria de imagenes. Adaptamos la galeria de imagenes a lo que necesites.</p>
+                                <div class="item-pack">
+                                    <p>
+                                        <ion-icon class="icon-fonsize" name="grid-outline"></ion-icon> <strong>Galería de imágenes</strong>. <br>
+                                        Adaptamos la galería de imágenes como más te guste. <br>
+                                        En principio, tendrás la posibilidad de agregar a tu sitio 20 imágenes. De tener la necesidad de agregar más, dependiendo de la cantidad, se hará una cotización accesible y conveniente.
+                                    </p>
                                 </div>
-                                <div>
-                                    <p><ion-icon class="icon-fonsize" name="lock-closed-outline"></ion-icon> Seguridad y respaldo da la base de datos y tus contenidos. Correos electornicos, bloques de intrusos y spams.</p>
+                                <div class="item-pack">
+                                    <p>
+                                        <ion-icon class="icon-fonsize" name="lock-closed-outline"></ion-icon> <strong>Protección y respaldo de contenido</strong>.
+                                        <br>
+                                        Mediante copias de seguridad garantizamos el respaldo de tu base de datos, tus contenidos, correos electrónicos y otros recursos.
+                                        <br>
+                                        Para proteger tu sitio, aplicamos recursos de protección indispensables. Te recomendamos contratar el mantenimiento del sitio para tener un servicio completo y útil. Más info.
+
+                                    </p>
                                 </div>
-                                <div>
-                                    <p><ion-icon class="icon-fonsize" name="chatbubble-ellipses-outline"></ion-icon> Feedback. Te ofresemos comunicación con uno de nuestros asesores para coordinar los requerimientos de tu sitio web.</p>
+                                <div class="item-pack">
+                                    <p>
+                                        <ion-icon class="icon-fonsize" name="chatbubble-ellipses-outline"></ion-icon> Feedback. <ion-icon name="repeat-outline"></ion-icon>
+                                        <br>
+                                        Te ofrecemos comunicación directa con uno de nuestros asesores para que te ayuden a coordinar los requerimientos de tu sitio web.
+                                        <br>
+                                        Desde el inicio de tu proyecto hasta la adquisición de Tu Sitio Web. Nuestro asesor se ocupará de darte la <strong>atención personalizada</strong> que necesitas.
+
+                                    </p>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/operador.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                 </div>
                             </div>
@@ -136,8 +165,8 @@ if (!empty($_GET["pack"])) {
                                 <div>
                                     <p>
                                         <ion-icon class="icon-fonsize" name="globe-outline"></ion-icon> Nos encargamos de las configuraciones del hosting donde alojaremos tu sitio para que se vea en la web.
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/server.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                     </p>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/server.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                 </div>
                                 <div>
                                     <p>
