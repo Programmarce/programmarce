@@ -105,7 +105,7 @@ if (!empty($_GET["pack"])) {
                                     <p>
                                         <ion-icon class="icon-fonsize" name="grid-outline"></ion-icon> <strong>Galería de imágenes</strong>. <br>
                                         Adaptamos la galería de imágenes como más te guste. <br>
-                                        En principio, tendrás la posibilidad de agregar a tu sitio 20 imágenes. De tener la necesidad de agregar más, dependiendo de la cantidad, se hará una cotización accesible y conveniente.
+                                        En principio, tendrás la posibilidad de agregar a tu sitio 16 imágenes. De tener la necesidad de agregar más, dependiendo de la cantidad, se hará una cotización accesible y conveniente.
                                     </p>
                                 </div>
                                 <div class="item-pack">
