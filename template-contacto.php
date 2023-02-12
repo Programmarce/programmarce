@@ -5,19 +5,45 @@ mostrarRuta(0, __FILE__);
 get_header();
 ?>
 
-<main style="margin: 81px 2rem 0px 2rem;">
-    <div class="card text-center">
-        <div class="card-header">
+<main class="main-conteiner">
+    <section id="sect1" class="sect">
+        <video class="object-fit-xxl-contain rounded" src="<?php echo get_template_directory_uri(); ?>/assets/img/video/estrellas.mp4" autoplay="true" muted="true" loop="true" poster="https://carontestudio.com/img/contacto.jpg"></video>
+
+        <div class="video-text">
+                <h1 class="card-title">Encotrá tu Sitio Web.</h1>
+                <p class="card-text">
+                    Se parte del Universo Digital. <ion-icon name="telescope-outline" role="img" class="md hydrated" aria-label="telescope outline" style="font-size: 23px;"></ion-icon> <ion-icon name="sparkles-outline" role="img" class="md hydrated" aria-label="sparkles outline" style="
+    margin-bottom: 14px;"></ion-icon>
+                </p>
+        </div>
+    </section>
+    <div class="card text-center form-content" style="margin: 0px 2rem 0px 2rem;">
+        <div class="card-header" style="box-shadow: inset -1px 4px 9px #d908ff;">
             <h2>Contactanos para Diseñar tu Web</h2>
         </div>
         <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <?php the_content(); ?>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">Completa el Formulario</h5>
+            <p class="card-text">
+                Dejanos tus datos y tu consulta para que te contactemos.
+                <br>
+                Contanos que estas buscado para Tu Nuevo Sitio Web.
+                <br>
+            </p>
+            <ion-icon name="telescope-outline" role="img" class="md hydrated" aria-label="telescope outline" style="font-size: 23px;"></ion-icon> <ion-icon name="sparkles-outline" role="img" class="md hydrated" aria-label="sparkles outline" style="
+    margin-bottom: 14px;"></ion-icon>
+            <div class="fomulario_contacto" style="margin-bottom: 2rem;">
+                <?php the_content(); ?>
+            </div>
+            <a href="<?php echo get_home_url(); ?>/productos" class="btn btn-primary btn-packs-view">Conocer los Packs</a>
         </div>
         <div class="card-footer text-muted">
-            2 days ago
+            <div>
+                <p style="color: white;">Buscanos en Redes Sociales</p>
+                <a href=""><ion-icon class="redes-icons" name="logo-whatsapp"></ion-icon></a>
+                <a href="https://www.facebook.com/people/Programmarce-Webs/100090003670435/"><ion-icon class="redes-icons" name="logo-facebook"></ion-icon></a>
+                <a href=""><ion-icon class="redes-icons" name="logo-instagram"></ion-icon></a>
+                <a href=""><ion-icon class="d-none redes-icons" name="logo-youtube"></ion-icon></a>
+            </div>
         </div>
     </div>
 </main>
