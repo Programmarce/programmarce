@@ -3,6 +3,16 @@
 
 mostrarRuta(0, __FILE__);
 get_header();
+
+function redes () {
+    echo "
+    <p style='color: white;'>Buscanos en Redes Sociales</p>
+    <a href='' target='_blank'><ion-icon class='redes-icons' name='logo-whatsapp'></ion-icon></a>
+    <a href='https://www.facebook.com/people/Programmarce-Webs/100090003670435/' target='_blank'><ion-icon class='redes-icons' name='logo-facebook'></ion-icon></a>
+    <a href='' target='_blank'><ion-icon class='redes-icons' name='logo-instagram'></ion-icon></a>
+    <a href='' target='_blank'><ion-icon class='d-none redes-icons' name='logo-youtube'></ion-icon></a>
+    ";
+}
 ?>
 
 <main class="main-conteiner">
@@ -38,11 +48,7 @@ get_header();
         </div>
         <div class="card-footer text-muted">
             <div>
-                <p style="color: white;">Buscanos en Redes Sociales</p>
-                <a href=""><ion-icon class="redes-icons" name="logo-whatsapp"></ion-icon></a>
-                <a href="https://www.facebook.com/people/Programmarce-Webs/100090003670435/"><ion-icon class="redes-icons" name="logo-facebook"></ion-icon></a>
-                <a href=""><ion-icon class="redes-icons" name="logo-instagram"></ion-icon></a>
-                <a href=""><ion-icon class="d-none redes-icons" name="logo-youtube"></ion-icon></a>
+                <?php redes(); ?>
             </div>
         </div>
     </div>
