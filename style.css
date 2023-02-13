@@ -151,3 +151,12 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 	margin-top: 81px;
 }
 
+/*
+vista mobile gral
+*/
+@media (max-width: 768px) {
+	.main_template {
+		margin-top: -1px;
+	}
+}
+

@@ -34,11 +34,12 @@ if (!empty($_GET["pack"])) {
 }
 
 ?>
-
-<main class="main_template">
-    <div style="margin: -1px 1rem 1rem 1rem;">
+<div class="main_template">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banners/banner-coffe.png" class="card-img-top" alt="...">
+</div>
+<main>
+    <div style="margin: 1px 1rem 1rem 1rem;">
         <div class="card">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banners/banner-coffe.png" class="card-img-top" alt="...">
             <div id="btn-packs" class="card-body">
                 <h5 class="card-title">Conocé nuestros Paquetes:</h5>
                 <div class="accordion" id="accordionPanelsStayOpenExample" style="margin-top: 1.5rem">

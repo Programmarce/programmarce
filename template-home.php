@@ -118,7 +118,7 @@ $paquetes = array(
 ?>
 
 <style>/*.main-header {display: none;@todo debugger}*/</style>
-<main class="main_template">
+<main class="main_template-home">
     <!--slider ini-->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -162,15 +162,12 @@ $paquetes = array(
     <div style="height: auto; margin: 1rem;">
         <div class="container text-center">
             <div class="row">
-                <!--verificando si hay packs-->
-                <?php if (!empty($paquetes)) : ?>
-                    <!--recorrer el array con un foreach-->
+                <?php if (!empty($paquetes)) : //verificando si hay packs?>
                     <?php foreach ($paquetes as $pack) : ?>
                         <?php
                         $name_icon = !empty($pack["icon"]) ? $pack["icon"] : "ribbon-outline";
                         ?>
-                        <!--check mostrar pack.-->
-                        <?php if ($pack["mostrar"]) : ?>
+                        <?php if ($pack["mostrar"]) : //check mostrar pack?>
                             <!--maquetar ini:-->
                             <div class="col card_conten">
                                 <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
@@ -208,13 +205,11 @@ $paquetes = array(
                             </div>
                             <!--maquetar fin:-->
                         <?php else : ?>
-                            <!--debbuger-->
-                            <pre style="display: none;"><?php echo "no se puede mostar el pack: ". $pack['name pack']; ?></pre>
+                            <pre style="display: none;"><?php echo "no se puede mostar el pack: ". $pack['name pack']; //debbuger?></pre>
                         <?php endif; ?>
 
                     <?php endforeach; ?>
-                <?php endif; ?>
-                <!--fin verificar paquetes-->
+                <?php endif; //fin verificar paquetes?>
             </div>
         </div>
         <div class="card" style="text-align: center; border: none;">

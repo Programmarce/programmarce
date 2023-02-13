@@ -18,7 +18,7 @@ vista mobile template home
 */
 @media (max-width: 768px) {
     /*contenedor gral - mobile*/
-    .main_template { margin-top: 0px;}
+    .main_template-home { margin-top: 0px;}
     #carouselExampleCaptions { margin-top: 0px;}
 
     /*slider*/
