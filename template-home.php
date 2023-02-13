@@ -41,7 +41,7 @@ $paquetes = array(
         "40.000",
         "",
         "3.000",
-        "Obtene una pagina web ya!<br>En pocos pasos y de forma sencilla.",
+        "Obtene una página web ya!<br>En pocos pasos y de forma sencilla.",
         array(
             " Hosting incluido",
             "Dominio incluido",
@@ -130,22 +130,22 @@ $paquetes = array(
             <div class="carousel-item active">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slide/keyboar.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>Creamos tu Pagina Web ya!</h1>
-                    <p>Ponete en contacto con nosotros. <br> Empeza hoy a ver tu sitio Web.</p>
+                    <h1>Creamos tu Página Web ya!</h1>
+                    <p>Ponete en contacto con nosotros. <br> Empezá hoy a ver tu sitio Web.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slide/business.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Inverti en tu Negocio Digital</h5>
-                    <p>Aprovecha la tecnologia para llegar mas lejos.</p>
+                    <h5>Invertí en tu Negocio Digital</h5>
+                    <p>Aprovechá la tecnología para llegar más lejos.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slide/hands.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Tu negocio en manos de todo el mundo.</h5>
-                    <p>mostrale a todos lo que ofreces.</p>
+                    <p>Mostrale a todos lo que ofrecés.</p>
                 </div>
             </div>
         </div>
@@ -215,6 +215,11 @@ $paquetes = array(
                     <?php endforeach; ?>
                 <?php endif; ?>
                 <!--fin verificar paquetes-->
+            </div>
+        </div>
+        <div class="card" style="text-align: center; border: none;">
+            <div class="card-body">
+                <?php redes(); ?>
             </div>
         </div>
     </div>

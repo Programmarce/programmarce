@@ -16,3 +16,14 @@
 
 /* Styles items Packs */
 .item-pack { margin-bottom: 1.2rem; }
+
+.barra-redes {
+    border-radius: 1rem;
+    background: #0506062e;
+    padding: 3px;
+    text-align: center;
+}
+.barra-redes p {
+    color: #850edf;
+    font-weight: 500;
+}

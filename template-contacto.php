@@ -4,15 +4,6 @@
 mostrarRuta(0, __FILE__);
 get_header();
 
-function redes () {
-    echo "
-    <p style='color: white;'>Buscanos en Redes Sociales</p>
-    <a href='' target='_blank'><ion-icon class='redes-icons' name='logo-whatsapp'></ion-icon></a>
-    <a href='https://www.facebook.com/people/Programmarce-Webs/100090003670435/' target='_blank'><ion-icon class='redes-icons' name='logo-facebook'></ion-icon></a>
-    <a href='' target='_blank'><ion-icon class='redes-icons' name='logo-instagram'></ion-icon></a>
-    <a href='' target='_blank'><ion-icon class='d-none redes-icons' name='logo-youtube'></ion-icon></a>
-    ";
-}
 ?>
 
 <main class="main-conteiner">
@@ -27,7 +18,7 @@ function redes () {
                 </p>
         </div>
     </section>
-    <div class="card text-center form-content" style="margin: 0px 2rem 0px 2rem;">
+    <div id="form-contacto" class="card text-center form-content" style="margin: 0px 2rem 0px 2rem;">
         <div class="card-header" style="box-shadow: inset -1px 4px 9px #d908ff;">
             <h2>Contactanos para Diseñar tu Web</h2>
         </div>
@@ -48,6 +39,7 @@ function redes () {
         </div>
         <div class="card-footer text-muted">
             <div>
+                <p style="color: white;">Buscanos en Redes Sociales</p>
                 <?php redes(); ?>
             </div>
         </div>

@@ -75,3 +75,19 @@ function dataPacks($mostrar_pack = false, $name_img_banner, $name_Pack, $icon, $
     );
     return $data_pack;
 }
+
+/* Icnos de Redes */
+function redes () {
+    echo "
+    <a href='https://api.whatsapp.com/send?phone=5491122000022' target='_blank'><ion-icon class='redes-icons' name='logo-whatsapp'></ion-icon></a>
+    <a href='https://www.facebook.com/profile.php?id=100090373171646' target='_blank'><ion-icon class='redes-icons' name='logo-facebook'></ion-icon></a>
+    <a href='' target='_blank'><ion-icon class='redes-icons' name='logo-instagram'></ion-icon></a>
+    <a href='' target='_blank'><ion-icon class='d-none redes-icons' name='logo-youtube'></ion-icon></a>
+    ";
+}
+
+/* boton - contacto */
+
+function btnContacto () {
+    echo "<a href='".get_home_url()."/contacto' class='btn btn-primary btn-packs-view'>Contáctanos</a>";
+}
