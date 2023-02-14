@@ -12,10 +12,10 @@ if (!defined('ABSPATH')) {
     <meta name="description" content="Creamos tu pagina web ya!">
     <meta property="og:url" content="https://www.programmarce.ar/home">
     <!--agregar img-->
-    <meta property="og:image" content="">
+    <meta property="og:image" content="<?php echo get_template_directory_uri().'/assets/img/programmarce-web.jpg'; ?>">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Creamos tu pagina web ya! Diseñamos tu sitio a tu medida.">
-    <meta property="og:description" content="Creamos y Diseñamos tu pagina web de manera rápida y segura, a la medida de tus necesidades. Somos de Argentina y apostamos al crecimiento digital. Precios y cotización increibles. Contactanos, no lo dudes.">
+    <meta property="og:description" content="Creamos y Diseñamos tu página web de manera rápida y segura, a la medida de tus necesidades. Somos de Argentina y apostamos al crecimiento digital. Precios y cotización increíbles. Contáctanos, no lo dudes.">
     <title>Programmarce: Creamos tu sitio Web ya!</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
