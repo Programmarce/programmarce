@@ -49,6 +49,7 @@ $paquetes = array(
             "Certificado SSL",
             "SEO Basic",
             "Logo",
+            "Responsive Design",
             "Redes sociales",
             "Galeria de imagenes",
             "Protección y Respaldo",
@@ -74,10 +75,10 @@ $paquetes = array(
             "Formulario de Contacto",
             "SEO Complete",
             "Logo",
+            "Responsive Design",
             "Redes sociales",
             "Galeria de imagenes",
             "Protección y Respaldo",
-            "Asesoramiento continuo",
             "Feedback cliente - asesor"
         ),
         "?pack=proweb#btn-packs"
@@ -100,13 +101,14 @@ $paquetes = array(
             "Formulario de Contacto",
             "SEO Premium",
             "Logo Custom",
+            "Responsive Design",
             "Redes sociales",
             "Interación con Whatsapp",
             "Galeria de imagenes",
             "Protección Total",
             "Antivirus y contrafuegos",
             "Asesoramiento full",
-            "actualizaciones incluidas",
+            "Actualizaciones incluidas",
             "Feedback cliente - asesor"
         ),
         "?pack=premium#btn-packs"

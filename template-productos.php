@@ -55,9 +55,11 @@ if (!empty($_GET["pack"])) {
                                     <p><ion-icon class="icon-fonsize" name="rocket-outline"></ion-icon> <strong>Tu sitio web ya !</strong><br>
                                         Con este pack vas a tener <strong>tu sitio web de manera rápida y sencilla.</strong><br>
                                         Solo tenés que decirnos cuales son tus ideas, el nombre para tu página, qué contenido querés mostrar y cuál es la finalidad o que impactó buscas darle a tu proyecto.
-                                        <br>
-                                        Nosotros vamos a guiarte y darte una mano para el diseño y desarrollo. Verás que en pocos pasos tendrás tu web ya!
-                                        <br> Este pack tiene como objetivo darte <strong>de manera rápida y sencilla un sitio web a corto plazo.</strong>
+                                        <br>Nosotros vamos a guiarte y darte una mano para el diseño y desarrollo. Verás que en pocos pasos tendrás tu web ya!
+                                        <br>Este pack tiene como objetivo darte <strong>de manera rápida y sencilla un sitio web a corto plazo.</strong>
+                                        <br>El <strong>Matenimiento del sitio</strong> estará establecido en horas dedicadas a tu sitio, estas horas se pactaran con el asesor si contratas el abono mensual.
+                                        <br>El Abono es opcional. <ion-icon name="trail-sign-outline"></ion-icon> Solo lo contartarías, si crees que lo necesitas para tu sitio. El asesor te explicará los beneficios de este.
+                                        <br>Más información en <a href="#abono-m">Contrato de Abono</a>.
                                     </p>
                                 </div>
                                 <div class="item-pack">
@@ -86,6 +88,17 @@ if (!empty($_GET["pack"])) {
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/diseno-grafico.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/ilustrador.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/photoshop.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
+                                </div>
+                                <div class="item-pack">
+                                    <p>
+                                        <ion-icon name="phone-portrait-outline"></ion-icon> <strong>Responsive Design</strong>
+                                        <br>
+                                        Se trata de hacer que tu web se vea bien en cualquier dispositivo mobile.
+                                        <br>
+                                        El <strong>diseño adaptativo</strong> es la técnica que se usa en la actualidad para tener una misma web adaptada a las diferentes plataformas que nos brinda la tecnología: ordenador, tablet, Smartphone, iPad, Kindle y, en resumen, todas las resoluciones de pantalla existentes. <ion-icon name="phone-landscape-outline"></ion-icon>
+                                        <br>
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/responsive.jpeg" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
+                                    </p>
                                 </div>
                                 <div class="item-pack">
                                     <p><ion-icon class="icon-fonsize" name="shield-checkmark-outline"></ion-icon>  Certificado SSL incluido. <br>
@@ -149,7 +162,13 @@ if (!empty($_GET["pack"])) {
                             <div class="accordion-body">
                                 <div class="item-pack">
                                     <p><ion-icon class="icon-fonsize" name="sparkles-outline"></ion-icon> <strong>Design Skills</strong>
-                                        <br> En este pack te ofrecemos propuestas de desarrollo, diseños que se adapten a lo que buscas. Matenimiento del sitio de 15hs dedicadas según <a href="#abono-m">Contrato de Abono</a>.</p>
+                                        <br>En este pack te ofrecemos propuestas de desarrollo, diseños que se adapten a lo que buscas. Buscaremos funcionalidades para optimizar tus recursos.
+                                        <br>Nos enfocarnos en aplicar y reflejar tus ideas atravéz de nuestras habilidades de desarrollo y diseño web, o como le llamamos, nuestros <strong>Design Skills</strong>. Analizaremos los objetivos, guiandote con propuestas que puedan satisfacer tus necesidades.
+                                        <br><ion-icon name="today-outline"></ion-icon>
+                                        <br>El <strong>Matenimiento del sitio</strong> estará establecido en horas dedicadas a tu sitio <ion-icon name="speedometer-outline"></ion-icon>, estas horas se pactaran con el asesor si contratas el abono mensual.
+                                        <br>El Abono es opcional. <ion-icon name="trail-sign-outline"></ion-icon> Solo lo contartarías, si crees que lo necesitas para tu sitio. El asesor te explicará los beneficios de este. <ion-icon name="chatbubbles-outline"></ion-icon>
+                                        <br>Más información en <a href="#abono-m">Contrato de Abono</a>.
+                                    </p>
                                 </div>
                                 <div class="item-pack">
                                     <p>
@@ -175,6 +194,17 @@ if (!empty($_GET["pack"])) {
                                         <ion-icon class="icon-fonsize" name="globe-outline"></ion-icon> Nos encargamos de las configuraciones del hosting donde alojaremos tu sitio para que se vea en la web.
                                     </p>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/server.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
+                                </div>
+                                <div class="item-pack">
+                                    <p>
+                                        <ion-icon name="phone-portrait-outline"></ion-icon> <strong>Responsive Design</strong>
+                                        <br>
+                                        Se trata de hacer que tu web se vea bien en cualquier dispositivo mobile.
+                                        <br>
+                                        El <strong>diseño adaptativo</strong> es la técnica que se usa en la actualidad para tener una misma web adaptada a las diferentes plataformas que nos brinda la tecnología: ordenador, tablet, Smartphone, iPad, Kindle y, en resumen, todas las resoluciones de pantalla existentes. <ion-icon name="phone-landscape-outline"></ion-icon>
+                                        <br>
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/responsive.jpeg" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
+                                    </p>
                                 </div>
                                 <div class="item-pack">
                                     <p>
@@ -231,26 +261,49 @@ if (!empty($_GET["pack"])) {
                         <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse <?php echo $show_premium; ?>" aria-labelledby="panelsStayOpen-headingThree">
                             <div class="accordion-body">
                                 <div class="item-pack">
-                                    <p><ion-icon class="icon-fonsize" name="trophy-outline"></ion-icon> <strong>Premium Protected</strong> Este pack es el más completo, por lo cual podemos ampliar horizontes, dedicarnos a tu sitio hasta lograr la mejor performance. Matenimiento del sitio de 15hs dedicadas.</p>
+                                    <p><ion-icon class="icon-fonsize" name="trophy-outline"></ion-icon> <strong>Premium Protected</strong>
+                                        <br>Este Pack es el más completo, por lo cual podemos ampliar horizontes, dedicarnos a tu sitio hasta lograr la mejor <strong>performance</strong>.
+                                        <br>Aquí desarrolamos el potencial de tu sitio web con todas las adaptaciones que se requieran. Te acompañaremos en tu proyecto y en los desafios que este implique.
+                                        <br>Trabajaremos juntos para lograr los objetivos que propongas. <ion-icon name="contract-outline"></ion-icon>
+                                        <br><strong>Digital Skills</strong>
+                                        <br>Profesionales que cuenta con diversas habilidades informáticas aportaran sus <strong>Skills</strong> (habilidades) para bindarte el mejor servicio.
+                                        <br><img src="<?php echo get_template_directory_uri(); ?>/assets/img/fullstack.png" class="card-img-top" alt="..." style="width: 14rem; margin-bottom: 1rem;">
+                                        <br>
+                                        <br>El <strong>Matenimiento del sitio</strong> estará establecido en horas dedicadas a tu sitio, estas horas se pactaran con el asesor si contratas el abono mensual.
+                                        <br>El Abono es opcional. <ion-icon name="trail-sign-outline"></ion-icon> Solo lo contartarías, si crees que lo necesitas para tu sitio. El asesor te explicará los beneficios de este.
+                                        <br>Más información en <a href="#abono-m">Contrato de Abono</a>.
+                                    </p>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/servicio-premium.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                 </div>
                                 <div class="item-pack">
                                     <p>
-                                        <ion-icon class="icon-fonsize" name="trail-sign-outline"></ion-icon> Te ofrecemos un dominio y gestión del mismo. Asesoria completa y detallada. A medida que tengamos los feedback, te acompañaremos para que entiendas todo. Un asesor te explicara como proceder, no te preocupes.<br>
+                                        <ion-icon class="icon-fonsize" name="trail-sign-outline"></ion-icon> Te ofrecemos un dominio y gestión del mismo. Asesoria completa y detallada. A medida que tengamos los feedback, te acompañaremos para que entiendas todo. Un asesor te explicara como proceder. ¡Es muy sencillo! <ion-icon name="happy-outline"></ion-icon><br>
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/nicar.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/tad.jpg" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                     </p>
                                 </div>
                                 <div class="item-pack">
                                     <p>
-                                        <ion-icon class="icon-fonsize" name="globe-outline"></ion-icon> Nos encargamos de las configuraciones del hosting donde alojaremos tu sitio para que se vea en la web.
+                                        <ion-icon class="icon-fonsize" name="globe-outline"></ion-icon> Nos encargamos de las configuraciones del hosting donde alojaremos tu sitio para que se vea en la web. Monitore de vulnerabilidades en el sistema de archivos, control y administración de datos y velocidad.
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/server.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                     </p>
                                 </div>
                                 <div class="item-pack">
                                     <p>
-                                        <ion-icon class="icon-fonsize" name="receipt-outline"></ion-icon> Te ofrecemos 8 secciones o paginas para navegar por tu sitio. Si necesitas mas, podemos cotizarlo y darte un mejor precio.
+                                        <ion-icon class="icon-fonsize" name="receipt-outline"></ion-icon> Te ofrecemos 8 secciones o páginas para navegar por tu sitio. Si necesitas más, podemos cotizarlo y darte un mejor precio.
                                     </p>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/web-development.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
+                                </div>
+                                <div class="item-pack">
+                                    <p>
+                                        <ion-icon name="phone-portrait-outline"></ion-icon> <strong>Responsive Design</strong>
+                                        <br>
+                                        Se trata de hacer que tu web se vea bien en cualquier dispositivo mobile.
+                                        <br>
+                                        El <strong>diseño adaptativo</strong> es la técnica que se usa en la actualidad para tener una misma web adaptada a las diferentes plataformas que nos brinda la tecnología: ordenador, tablet, Smartphone, iPad, Kindle y, en resumen, todas las resoluciones de pantalla existentes. <ion-icon name="phone-landscape-outline"></ion-icon>
+                                        <br>
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/responsive.jpeg" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
+                                    </p>
                                 </div>
                                 <div class="item-pack">
                                     <p>
@@ -266,15 +319,22 @@ if (!empty($_GET["pack"])) {
                                     </p>
                                 </div>
                                 <div class="item-pack">
-                                    <p><ion-icon class="icon-fonsize" name="bar-chart-outline"></ion-icon> Implementación de <strong>SEO Complete</strong>. Aplicaremos una serie de técnicas, disciplinas y estrategias de optimización para tu sitio web o blog que mejorarán su posicionamiento en los buscadores.
+                                    <p><ion-icon class="icon-fonsize" name="bar-chart-outline"></ion-icon> Implementación de <strong>SEO Complete</strong>. <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <br>Aplicaremos una serie de técnicas, disciplinas y estrategias de optimización para tu sitio web o blog que mejorarán su posicionamiento en los buscadores.
                                         <br>Implementamos la mejor optimización para motores de búsqueda. Un asesor te acompañara en este proceso.
+                                        <br>Tu web más accesible para los usuarios y los rastreadores de los motores de búsqueda mediante la mejora del SEO de tu contenido y su legibilidad, potenciara tu web.
+                                        <br>Con herramientas de SEO on-page poderosas que puede mejorar las posiciones de tu web y ofrecerte un mejor control sobre el aspecto de tus páginas. <ion-icon name="navigate-outline"></ion-icon>
+
                                     </p>
                                 </div>
                                 <div class="item-pack">
-                                    <p><ion-icon class="icon-fonsize" name="logo-stackoverflow"></ion-icon> Imcorporación de Redes sociasles (Facebook - instagram - Whatsaap - twiter - y otros que necesites aplicar).</p>
+                                    <p><ion-icon class="icon-fonsize" name="logo-stackoverflow"></ion-icon> Imcorporación de Redes sociales (Facebook - instagram - Whatsaap - twiter - y otros que necesites aplicar).</p>
                                 </div>
                                 <div class="item-pack">
-                                    <p><ion-icon class="icon-fonsize" name="grid-outline"></ion-icon> Galeria de imagenes. Adaptamos la galeria de imagenes a lo que necesites.</p>
+                                    <p>
+                                        <ion-icon class="icon-fonsize" name="grid-outline"></ion-icon> Galeria de imagenes. Adaptamos la galeria de imagenes a lo que necesites.
+                                        <br>Incorporación de videos directos a <strog>youtube</strog>. <ion-icon name="logo-youtube"></ion-icon>
+                                    </p>
                                 </div>
                                 <div class="item-pack">
                                     <p>
@@ -308,23 +368,29 @@ if (!empty($_GET["pack"])) {
                     <div class="card-body">
                         <h5 class="card-title">Contrato de Abono - Servicio de Mantenimiento</h5>
                         <p class="card-text">
-                            Este contrato es opcional, es decir no requiere obligación de abono. Lo cual es una buena noticia <ion-icon class="icon-fonsize" name="happy-outline"></ion-icon>, ya que creemos que hay que darles la opción a nuestros clientes elegir los servicios que necesitan. <ion-icon name="bag-check-outline"></ion-icon>
+                            Este contrato es opcional, es decir no requiere obligación de abono. Lo cual es una buena noticia <ion-icon class="icon-fonsize" name="happy-outline"></ion-icon>, ya que creemos que hay que darles la opción a nuestros clientes a elegir los servicios que necesitan. <ion-icon name="bag-check-outline"></ion-icon>
                             <br>
-                            Pero ¿De qué se trata el Contrato Abono? <br>
-                            Este contrato te ofrece <strong>Servicios de Mantenimiento</strong> para tu sitio web. <br>
-                            Nuestros productos se basan en packs de servicios digitales. <br>
+                            Pero, ¿De qué se trata el Contrato Abono? <br>
+                            Este contrato te ofrece <strong>Servicios de Mantenimiento</strong> para tu sitio web, pactadas en horas dedicadas a la mejora continua de tu página. <br>
+                            ¿En qué te beneficiaría este servicio? <br>
+                            Nuestros productos se basan en <strong>servicios digitales</strong>.
+                            <br>
                             Ofrecemos varias categorias iniciales a las que llamamos "Packs", las cuales tienen definidas sus características. <br>
-                            ¿en qué te beneficiaría este servicio? <br>
                             El <strong>Servicio de Matenimiento</strong> de tu sitio te brinda una atención adicional ademas de los servicios propuestos en el pack.<br>
-                            Es por ello que pactaremos en un feedback (comunicación) para explicarte y coordinar los beneficios de este <strong>servio especializado</strong>, teniendo en cuenta el pack que eligas.<br>
+                            Es por ello que pactaremos en un feedback (comunicación), para explicarte y coordinar los beneficios de este <strong>servio especializado</strong>, teniendo en cuenta el pack que eligas.<br>
                             Cada pack tiene un abono mensual de base y las especificaciones de lo que contempla el mantenimiento de tu sitio te lo explicara un asesor de manera detallada, paso a paso. <ion-icon class="icon-fonsize" name="footsteps-outline"></ion-icon>
                             <br>
-                            Para que tedés una idea mejor, te daré un ejemplo. Supongamos que tu sitio tiene contenidos que deben actualizarce con frecuencia. Esto requiere de una <b>atención y disponibilidad</b> pactada <ion-icon name="checkmark-done-outline"></ion-icon>, a la que llamos <strong>horas de dicadas por mes</strong> <ion-icon name="timer-outline"></ion-icon>.
+                            Para que tedés una idea mejor, te daré un ejemplo.
                             <br>
-                            Estas horas son para dedicarle tiempos de desarrllo, cambios o modificaciones, actualización de contenido, y todo lo que se necesite para mantener tu sitio actualizado y seguro. Pasado estas horas, todo cambio se cotiza.
+                            Supongamos que tu sitio tiene contenidos que deben actualizarce con frecuencia. Esto requiere de una <b>atención y disponibilidad</b> pactada <ion-icon name="checkmark-done-outline"></ion-icon>, a la que llamos <strong>horas de dicadas</strong> <ion-icon name="timer-outline"></ion-icon>.
+                            <br>
+                            Estas horas son para dedicarle tiempos de desarrollo, cambios o modificaciones, actualización de contenido, y todo lo que se necesite para mantener tu sitio actualizado y seguro. Dependera de que tipo de desarrollo e implmentaciones requiera tu sitio, para poder estimar una cotización en base al tiempo y complejidad.
+                            <br>
+                            Pero como te mencionamos antes, el abono no es obligatorio, hace que no te preocupes... <ion-icon name="fast-food-outline"></ion-icon>
                             <br>
                             En fin, esto lo tendras mas claro cuando te comuniques con el asesor. <ion-icon name="people-outline"></ion-icon>
                         </p>
+                        <p>No esperes más...</p>
                         <a href="<?php echo get_home_url(); ?>/contacto/#form-contacto" class="btn btn-primary bg-theme">Realizá tu Consulta</a>
                     </div>
                 </div>
