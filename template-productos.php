@@ -57,6 +57,7 @@ if (!empty($_GET["pack"])) {
                                         Solo tenés que decirnos cuales son tus ideas, el nombre para tu página, qué contenido querés mostrar y cuál es la finalidad o que impactó buscas darle a tu proyecto.
                                         <br>Nosotros vamos a guiarte y darte una mano para el diseño y desarrollo. Verás que en pocos pasos tendrás tu web ya!
                                         <br>Este pack tiene como objetivo darte <strong>de manera rápida y sencilla un sitio web a corto plazo.</strong>
+                                        <br>
                                         <br>El <strong>Matenimiento del sitio</strong> estará establecido en horas dedicadas a tu sitio, estas horas se pactaran con el asesor si contratas el abono mensual.
                                         <br>El Abono es opcional. <ion-icon name="trail-sign-outline"></ion-icon> Solo lo contartarías, si crees que lo necesitas para tu sitio. El asesor te explicará los beneficios de este.
                                         <br>Más información en <a href="#abono-m">Contrato de Abono</a>.
