@@ -49,7 +49,7 @@ function dataPacks($mostrar_pack = false, $name_img_banner, $name_Pack, $icon, $
     // leyenda de lo que hace esta funcion.
     /*
      * $mostrar_pack : Mostrar u Ocultar pack.
-     * $name_img_banner : Nombre de la imagen incluido la extensión (agregar banner en /assets/img/banners).
+     * $name_img_banner : Nombre de la imagen incluído la extensión (agregar banner en /assets/img/banners).
      * $name_Pack : Nombre del Pack.
      * $icon : icono pequeño (simbolo del pack) - Default icon.
      * $precio_tach : Valor simbolico tachado. $ xxx ARS. Default -> null.

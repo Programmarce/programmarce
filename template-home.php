@@ -41,19 +41,19 @@ $paquetes = array(
         "40.000",
         "",
         "3.000",
-        "Obtene una página web ya!<br>En pocos pasos y de forma sencilla.",
+        "Obtené una página web ya!<br>En pocos pasos y de forma sencilla.",
         array(
-            " Hosting incluido",
-            "Dominio incluido",
+            " Hosting Incluído",
+            "Dominio Incluído",
             "3 Secciones",
             "Certificado SSL",
             "SEO Basic",
             "Logo",
             "Responsive Design",
-            "Redes sociales",
-            "Galeria de imagenes",
+            "Redes Sociales",
+            "Galería de Imágenes",
             "Protección y Respaldo",
-            "Feedback cliente - asesor"
+            "Feedback Cliente - Asesor"
         ),
         "?pack=standard#btn-packs"
     ),
@@ -68,18 +68,18 @@ $paquetes = array(
         "3.000",
         "Desarrollo, diseño y mantenimento de tu sitio activo.",
         array(
-            "Hosting incluido",
-            "Dominio incluido",
+            "Hosting Incluído",
+            "Dominio Incluído",
             "5 Secciones",
             "Certificado SSL",
             "Formulario de Contacto",
             "SEO Complete",
             "Logo",
             "Responsive Design",
-            "Redes sociales",
-            "Galeria de imagenes",
+            "Redes Sociales",
+            "Galería de Imágenes",
             "Protección y Respaldo",
-            "Feedback cliente - asesor"
+            "Feedback Cliente - Asesor"
         ),
         "?pack=proweb#btn-packs"
     ),
@@ -92,24 +92,24 @@ $paquetes = array(
         "85.000",
         "Limited time",
         "3.000",
-        "Desempeño dedicado a tu sitio. Implementación de SEO full, Seguridad y Mantenimiento premium.",
+        "Desempeño dedicado a tu sitio. Implementación de <strong>SEO</strong> Full, Seguridad y Mantenimiento Premium.",
         array(
-            "Hosting incluido",
-            "Dominio incluido",
+            "Hosting Incluído",
+            "Dominio Incluído",
             "8 Secciones",
             "Certificado SSL",
             "Formulario de Contacto",
             "SEO Premium",
             "Logo Custom",
             "Responsive Design",
-            "Redes sociales",
+            "Redes Sociales",
             "Interación con Whatsapp",
-            "Galeria de imagenes",
+            "Galería de Imágenes",
             "Protección Total",
-            "Antivirus y contrafuegos",
-            "Asesoramiento full",
+            "Antivirus y Contrafuegos",
+            "Asesoramiento Full",
             "Actualizaciones incluidas",
-            "Feedback cliente - asesor"
+            "Feedback Cliente - Asesor"
         ),
         "?pack=premium#btn-packs"
     )
