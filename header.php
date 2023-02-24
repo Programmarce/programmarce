@@ -12,8 +12,10 @@ if (!defined('ABSPATH')) {
     <meta name="description" content="Creamos tu pagina web ya!">
     <meta property="og:url" content="https://www.programmarce.ar/home">
     <!--agregar img-->
+    <meta property="og:site_name" content="Programmarce Web's">
+    <meta property="og:url" content="https://programmarce.ar/">
     <meta property="og:image" content="<?php echo get_template_directory_uri().'/assets/img/programmarce-web.jpg'; ?>">
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="product">
     <meta property="og:title" content="Creamos tu pagina web ya! Diseñamos tu sitio a tu medida.">
     <meta property="og:description" content="Creamos y Diseñamos tu página web de manera rápida y segura, a la medida de tus necesidades. Somos de Argentina y apostamos al crecimiento digital. Precios y cotización increíbles. Contáctanos, no lo dudes.">
     <title>Programmarce: Creamos tu sitio Web ya!</title>
