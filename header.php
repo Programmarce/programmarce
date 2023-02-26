@@ -34,7 +34,7 @@ if (!defined('ABSPATH')) {
             <a href="<?php echo get_home_url(); ?>">
                 <!--logo default-->
                 <div class="logo">
-                    <a href="<?php echo get_template_directory_uri().'/home'; //el logo redirecciona a la home ?>">
+                    <a href="<?php echo get_home_url(); //el logo redirecciona a la home ?>">
                         <img src="<?php echo get_template_directory_uri().'/assets/img/logo.png'; ?>">
                     </a>
                 </div>
