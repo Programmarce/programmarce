@@ -82,7 +82,7 @@ function redes () {
     <a href='https://api.whatsapp.com/send?phone=5491130273592' target='_blank'><ion-icon class='redes-icons' name='logo-whatsapp'></ion-icon></a>
     <a href='https://www.facebook.com/profile.php?id=100090373171646' target='_blank'><ion-icon class='redes-icons' name='logo-facebook'></ion-icon></a>
     <a href='https://www.instagram.com/programmarce.webs/' target='_blank'><ion-icon class='redes-icons' name='logo-instagram'></ion-icon></a>
-    <a href='' target='_blank'><ion-icon class='d-none redes-icons' name='logo-youtube'></ion-icon></a>
+    <a href='https://www.youtube.com/channel/UCx4c2HEvmLbABXBYe6fZAaw' target='_blank'><ion-icon class='redes-icons' name='logo-youtube'></ion-icon></a>
     ";
 }
 
