@@ -342,7 +342,7 @@ if (!empty($_GET["pack"])) {
                                         <ion-icon class="icon-fonsize md hydrated" name="today-outline" role="img" aria-label="today outline"></ion-icon>Implementación de un <strong>Formulario de contacto</strong>. Esta herramienta te permite recolectar datos de los usuarios que visiten tu sitio web, tales como correo electrónico, número telefónico o ubicación.
                                         <br>El formulario será estructurado con los campos que requieras. Si no entendés bien de que se trata, no te preocupes, nuestros asesores te lo explicarán...
                                     </p>
-                                    <img src="http://localhost/practica_wp/wp-content/themes/programmarce/assets/img/formulario.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/formulario.png" class="card-img-top" alt="..." style="width:5rem; margin-bottom: 1rem;">
                                 </div>
                                 <div class="item-pack">
                                     <p><ion-icon class="icon-fonsize" name="lock-closed-outline"></ion-icon> Seguridad y respaldo da la base de datos y tus contenidos. Correos electrónicos, bloqueos de intrusos y spams. Imcorporamos antivirus y contrafuegos para proteger tu sitio.</p>
