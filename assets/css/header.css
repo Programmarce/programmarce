@@ -54,7 +54,7 @@
 
 .nav-link a:focus, .nav-link a:hover {
     color: black;
-    text-shadow: 1px 1px 2px #ffffff !important;
+    text-shadow: -1px 1px 7px #f004ff !important;
     font-weight: 700;
 }
 
